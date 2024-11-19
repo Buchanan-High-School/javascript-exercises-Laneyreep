@@ -18,6 +18,11 @@ function task2() {
 
 // Write your task 3 code inside this function!
 function task3() {
-  
-  console.log("Running task 3");
+ console.log("Running task 3");
+ let target=document.querySelector("#list")
+ console.log(target)
+ let parent=document.querySelector('#list')
+ let child=document.createElement("li")
+ child.textContent="This is a list item"
+ parent.appendChild(child)
 }
